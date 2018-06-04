@@ -1,0 +1,93 @@
+[debug] [2018-06-04T05:34:45.792Z] ----------------------------------------------------------------------
+[debug] [2018-06-04T05:34:45.794Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\santdaS\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-06-04T05:34:45.795Z] CLI Version:   3.18.5
+[debug] [2018-06-04T05:34:45.795Z] Platform:      win32
+[debug] [2018-06-04T05:34:45.795Z] Node Version:  v8.11.1
+[debug] [2018-06-04T05:34:45.795Z] Time:          Mon Jun 04 2018 13:34:45 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-06-04T05:34:45.795Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-06-04T05:34:45.807Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-06-04T05:34:45.808Z] > authorizing via signed-in user
+[debug] [2018-06-04T05:34:45.811Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-06-04T05:34:45.811Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/tc_ignchLp6qp_vOBo0WAtuPYL7JslVhAxHOg90fzr3Gdfwtf-72Feupf_wIHme1',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Jun 04 2018 13:34:45 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-06-04T05:34:47.692Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-04T05:34:47.750Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/fir-functions-bc2ab  
+  
+ Mon Jun 04 2018 13:34:47 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-06-04T05:34:48.729Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-04T05:34:48.729Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/fir-functions-bc2ab/tokens  
+  
+ Mon Jun 04 2018 13:34:48 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-06-04T05:34:49.574Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-04T05:37:26.503Z] TypeError: Cannot read property 'wanted' of undefined
+    at C:\Users\santdaS\AppData\Roaming\npm\node_modules\firebase-tools\lib\checkFirebaseSDKVersion.js:43:47
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-06-04T05:37:43.337Z] ----------------------------------------------------------------------
+[debug] [2018-06-04T05:37:43.340Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\santdaS\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-06-04T05:37:43.341Z] CLI Version:   3.18.5
+[debug] [2018-06-04T05:37:43.341Z] Platform:      win32
+[debug] [2018-06-04T05:37:43.341Z] Node Version:  v8.11.1
+[debug] [2018-06-04T05:37:43.341Z] Time:          Mon Jun 04 2018 13:37:43 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-06-04T05:37:43.341Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-06-04T05:37:43.363Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-06-04T05:37:43.365Z] > authorizing via signed-in user
+[debug] [2018-06-04T05:37:43.370Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/fir-functions-bc2ab  
+  
+ Mon Jun 04 2018 13:37:43 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-06-04T05:37:44.383Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-04T05:37:44.384Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/fir-functions-bc2ab/tokens  
+  
+ Mon Jun 04 2018 13:37:44 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-06-04T05:37:45.178Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-04T05:40:20.896Z] TypeError: Cannot read property 'wanted' of undefined
+    at C:\Users\santdaS\AppData\Roaming\npm\node_modules\firebase-tools\lib\checkFirebaseSDKVersion.js:43:47
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-06-04T05:41:00.422Z] ----------------------------------------------------------------------
+[debug] [2018-06-04T05:41:00.425Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\santdaS\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-06-04T05:41:00.425Z] CLI Version:   3.18.5
+[debug] [2018-06-04T05:41:00.425Z] Platform:      win32
+[debug] [2018-06-04T05:41:00.425Z] Node Version:  v8.11.1
+[debug] [2018-06-04T05:41:00.426Z] Time:          Mon Jun 04 2018 13:41:00 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-06-04T05:41:00.426Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-06-04T05:41:00.440Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-06-04T05:41:00.441Z] > authorizing via signed-in user
+[debug] [2018-06-04T05:41:00.444Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/fir-functions-bc2ab  
+  
+ Mon Jun 04 2018 13:41:00 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-06-04T05:41:02.155Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-04T05:41:02.156Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/fir-functions-bc2ab/tokens  
+  
+ Mon Jun 04 2018 13:41:02 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-06-04T05:41:02.949Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-04T05:43:22.511Z] ----------------------------------------------------------------------
+[debug] [2018-06-04T05:43:22.514Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\santdaS\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-06-04T05:43:22.514Z] CLI Version:   3.18.5
+[debug] [2018-06-04T05:43:22.514Z] Platform:      win32
+[debug] [2018-06-04T05:43:22.514Z] Node Version:  v8.11.1
+[debug] [2018-06-04T05:43:22.515Z] Time:          Mon Jun 04 2018 13:43:22 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-06-04T05:43:22.515Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-06-04T05:43:22.530Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-06-04T05:43:22.531Z] > authorizing via signed-in user
+[debug] [2018-06-04T05:43:22.534Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/fir-functions-bc2ab  
+  
+ Mon Jun 04 2018 13:43:22 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-06-04T05:43:50.931Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-04T05:43:50.932Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/fir-functions-bc2ab/tokens  
+  
+ Mon Jun 04 2018 13:43:50 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-06-04T05:44:07.428Z] <<< HTTP RESPONSE 200
